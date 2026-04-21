@@ -6,8 +6,8 @@ export default function LoginPage() {
     const [state, formAction] = useActionState(loginAction, { message: null });
 
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-            <form action={formAction} className="p-6 bg-white border border-blue-400 rounded-xl shadow-md w-full max-w-sm text-gray-900">
+        <div className="min-h-screen flex items-center justify-center bg-gray-900 p-4">
+            <form action={formAction} className="p-6 bg-gray-200 border border-blue-400 rounded-xl shadow-md w-full max-w-sm text-gray-900">
                 <h1 className="text-xl font-bold mb-4 text-center">LOGIN SYSTEM</h1>
                 
                 <input
