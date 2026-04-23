@@ -8,7 +8,7 @@ const fetchSpecialBlogs = async (token) => {
     const res = await axios.get(`${process.env.STRAPI_BASE_URL}/api/special-blogs?populate=*`,
       {
         headers: {
-          'Authorization': `Bearer ${token}`
+          'key': `${token}`
         }
       }
     )
